@@ -23,7 +23,7 @@
 
 void GetButterflyValues(uint passIndex,uint x, out uint2 indices, out float2 weights)
 {
-	int sectionWidth=2<<passIndex;
+	int sectionWidth=2U<<passIndex;
 	int halfSectionWidth=sectionWidth/2;
 	
 	int sectionStartOffset=x&~(sectionWidth-1);
