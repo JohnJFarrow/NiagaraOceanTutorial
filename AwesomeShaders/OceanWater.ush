@@ -42,7 +42,8 @@ void GetButterflyValues(uint passIndex,uint x, out uint2 indices, out float2 wei
 	}
 }
 /////////////////
-groupshared float3 pingPongArray[4][THREADGROUP_SIZE];
+//groupshared float3 pingPongArray[4][THREADGROUP_SIZE];
+groupshared float3 pingPongArray[4][LENGTH];
 
 void ButterflyPass(int passIndex, uint x,uint t0, uint t1, out float3 resultR, out float3 resultI)
 {
