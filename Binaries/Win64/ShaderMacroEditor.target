@@ -7664,6 +7664,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/SceneViewExtensionTemplate/SceneViewExtensionTemplate/Binaries/Win64/UnrealEditor-SceneViewExtensionTemplate.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SceneViewExtensionTemplate/SceneViewExtensionTemplate/Binaries/Win64/UnrealEditor-SceneViewExtensionTemplate.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/SceneViewExtensionTemplate/SceneViewExtensionTemplate/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/ShaderDirectory/Binaries/Win64/UnrealEditor-ShaderDirectory.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -32206,6 +32218,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/SceneViewExtensionTemplate/SceneViewExtensionTemplate/SceneViewExtensionTemplate.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/ShaderDirectory/ShaderDirectory.uplugin",
 			"Type": "UFS"
 		}
@@ -32383,6 +32399,7 @@
 		"RigLogic",
 		"RigVM",
 		"RuntimeTelemetry",
+		"SceneViewExtensionTemplate",
 		"SequenceNavigator",
 		"SequenceValidator",
 		"SequencerAnimTools",

@@ -1,0 +1,3 @@
+[submodule "Plugins/SceneViewExtensionTemplate"]
+	path = Plugins/SceneViewExtensionTemplate
+	url = https://github.com/JohnJFarrow/SceneViewExtensionTemplate.git
